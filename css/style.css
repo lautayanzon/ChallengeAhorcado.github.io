@@ -1,0 +1,56 @@
+.conteiner {
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+}
+
+.titulo {
+    padding: 1em;
+}
+
+.titulo h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.input-palabra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-agregar-palabra {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 2em;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.miCanvas {
+    border: 1px solid black;
+}
+
+.container-canvas {
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+    padding: 1em;
+}
+
+footer {
+    position: fixed;
+    margin-top: 1em;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

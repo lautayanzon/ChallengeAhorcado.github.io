@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="conteiner">
+            <div class="titulo">
+                <h1>JUEGO DEL AHORCADO</h1>
+
+                <p>Reglas: el juego consiste en adivinar la palabra secreta letra por letra. <br> 
+                    Cada vez que te equivoques una parte del cuerpo se dibuja en la horca, para
+                    guiarte, <br> se dibujaran guiones en la pantalla que representan cada letra. Mucha suerte!
+
+                </p>
+
+                <button class="btn iniciar-juego">Iniciar juego</button>
+            </div>
+            <div class="input-palabra">
+                <form class="form-agregar-palabra">
+                    <label for="add-palabra"></label>
+                    <input id="agregar-palabra" name="addPalabra" type="text" placeholder="Ingrese una palabra">
+                    <button class="btn agregar-palabra">Agregar palabra</button>
+                </form>
+            </div>
+        </section>
+        <section class="container-canvas">
+            <!-- <canvas class="miCanvas" width="1200" height="800" style="border: 1px solid black;"></canvas> -->
+        </section>
+
+        <footer>
+            <p>Lautaro Yanzon</p>
+        </footer>
+    </main>
+
+    <script src="js/principal.js"></script>
+    <script src="js/Tablero.js"></script>
+    <script src="js/palabraSecreta.js"></script>
+
+</body>
+
+</html>
